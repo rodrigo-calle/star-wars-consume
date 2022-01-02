@@ -1,0 +1,16 @@
+.card-container{
+    height: 300px;
+    width: 300px;
+    border: thin solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-container p{
+    margin: 20px;
+}
+.card-container p span{
+    color: #FCDF2B;
+    font-weight: 600;
+    margin-right: 5px;
+}

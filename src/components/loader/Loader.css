@@ -1,0 +1,53 @@
+.loader-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.loader-container .background-loader{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.loading-content{
+    position: absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    text-align: center;
+}
+
+
+.loading-content .loading-content__loading{
+    color: #fff;
+    font-size: 22px;
+}
+
+.loading-content .loader-img {
+    height: 30vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .loading-content .loader-img {
+      animation: loader-img-spin infinite 5s linear;
+    }
+  }
+
+  @keyframes loader-img-spin{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.loading-content__quote{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}

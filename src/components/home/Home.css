@@ -1,0 +1,75 @@
+body{
+    background-color: #000;
+}
+.home-body{
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+
+.home-body .home-content{
+    color: #fff;
+    text-align: center;
+}
+
+.home-body .home-content img{
+    margin-top: 35px;
+    height: 65px;
+}
+.home-body .home-content h1{
+    margin: 0;
+}
+.home-body .home-content .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: left;
+    margin-top: 35px;
+    
+}
+.home-body .pagination-title{
+    margin-top: 25px;
+    color: #FCDF2B;
+}
+.home-body .pagination button{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    color: #FCDF2B;
+    font-weight: 600;
+    background-color: #000;
+    cursor: pointer;
+
+}
+.home-body .pagination .prev-btn{
+    border-left: 2px solid #fff;
+}
+
+.home-body .pagination .next-btn{
+    border-right: 2px solid #fff;
+}
+.home-body .pagination select{
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+    background-color: #000;
+    border: 3px solid #fff;
+    color: #FCDF2B;
+    font-weight: 600;
+}
+.home-body .pagination select option{
+    cursor: pointer;
+}
+.home-body .about{
+    margin-top: 35px;
+    color: #fff;
+}
+.home-body .about .author{
+    color: #FCDF2B;
+    text-decoration: none;
+}
