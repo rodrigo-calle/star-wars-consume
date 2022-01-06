@@ -11,14 +11,14 @@ const Home = () => {
     const { pagination ,setPagination } = usePaginationContext();
   
     useEffect(()=> {
-
         setLoading(true);
-
+      setTimeout(()=> {
         fetch(`https://swapi.dev/api/people/?page=${pagination}`)
          .then((res) => res.json())
          .then((data) => setInfo(data.results))
          .catch((error)=> console.log(error))
          .finally(() => setLoading(false));
+      },2000)
     }, [pagination])
 
     if (loading) {
